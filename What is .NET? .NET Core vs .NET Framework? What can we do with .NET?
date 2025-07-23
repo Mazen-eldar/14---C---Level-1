@@ -1,0 +1,61 @@
+What is .NET?
+ Platform = Programming Language + Libraries
+ .Net is a Platform 
+ Languages in .Net Platform are:
+ • C#, Visual Basic, and F#...etc.
+ Platforms: 
+• .Net Core: (runs anywhere) Windows, Linux, and macOS
+ • .Net Framework: Websites, services, and desktop apps ..etc on windows
+ • Xamarin /Mono : a .NET for Mobile (Cross Platform runs on android or ios)
+ All use a standard set of libraries 
+===========================================================================================
+What can we build using .NET?
+.NET Your Platform For Building AnyThing
+Desketop-Web-Cloud-Mobile-Gaming-IOT-AI
+===========================================================================================
+Who Built .NET?
+ Microsoft + several thousands of companies 
+ Over 100,000 developers and 3700 Companies 
+Contribute to the .NET Platform 
+===========================================================================================
+.NET Platform
+ • .NET is a platform, created by Microsoft, for building and running many 
+different types of applications including web, desktop, mobile, gaming, 
+IoT, AI, and cloud. 
+• It is a comprehensive development platform that provides tools and 
+technologies for building all types of applications, including web, 
+desktop, mobile, gaming, IoT, AI, and cloud. 
+• The .NET platform includes multiple components such as the .NET runtime, 
+the Base Class Library (BCL), and the .NET Standard Library.
+===========================================================================================
+.NET Standard
+ • .NET Standard is a formal specification of the APIs that are common across 
+.NET implementations. This allows the same code and libraries to run on 
+different implementations.
+===========================================================================================
+.NET Framework
+ • ".NET Framework" is one of the components of the .NET platform.
+ • It is a specific implementation of the .NET platform that provides a 
+runtime environment for executing .NET applications and provides a set of 
+libraries for developing and running applications on Windows.
+ • The .NET Framework was first released in 2002 and has since been updated 
+multiple times to include new features and improvements.
+ In short, .NET is a platform, while .NET Framework is one of its 
+implementations.
+===========================================================================================
+.Net vs .Net Core
+ • ".NET" and ".NET Core" are both components of the .NET platform, but they 
+differ in their design goals and use cases.
+ • ".NET Core" is a cross-platform, open-source, and modular implementation of 
+the .NET platform. It was created to provide a high-performance, scalable, 
+and flexible runtime environment for building modern, cloud-based 
+applications that can run on multiple operating systems, including Windows, 
+macOS, and Linux. 
+• .NET Core provides a subset of the features and libraries available in the 
+full .NET platform, but it is designed to be faster, lighter-weight, and 
+more efficient.
+ • In short, .NET is a comprehensive platform for building all types of 
+applications, while .NET Core is a cross-platform, open-source, and modular 
+implementation of the .NET platform focused on modern, cloud-based 
+applications.
+===========================================================================================
