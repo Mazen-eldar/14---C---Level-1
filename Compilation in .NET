@@ -1,0 +1,50 @@
+Compilation
+ • .NET applications are written in 
+the C#, F#, or Visual Basic 
+programming language. Code is 
+compiled into a language-agnostic 
+Common Intermediate Language 
+(CIL). Compiled code is stored in 
+assemblies—files with a .dll or 
+.exe file extension.
+ • When an app runs, the CLR takes 
+the assembly and uses a just-in
+time compiler (JIT) to turn it 
+into machine code that can 
+execute on the specific 
+architecture of the computer it 
+is running on.
+============================================
+Compilation
+ In .NET, the compilation process occurs in two stages: 
+1. just-in-time (JIT) compilation.
+ 2. ahead-of-time (AOT) compilation.
+============================================
+JIT: JUST In Time Compilation.
+ • Just-in-Time (JIT) Compilation: During the execution of a .NET 
+application, the CLR performs JIT compilation of the application's 
+Intermediate Language (IL) code into machine code. The JIT compiler 
+translates the IL code into native machine code for the target 
+platform on which the application is running. This allows the 
+application to take advantage of the full performance of the target 
+platform's hardware. The JIT compiler only compiles the methods 
+that are actually executed, so applications start up quickly, and 
+unused code is never compiled.
+============================================
+AOT: Ahead of Time Compilation.
+ • AOT stands for Ahead-of-Time, which is a method of compiling .NET code into 
+machine-readable code that can be executed directly by the computer's 
+processor, without requiring an interpreter or just-in-time (JIT) 
+compilation. This approach can lead to faster start times and better 
+performance compared to JIT-compiled code.
+ • AOT-compiled .NET code is often used in scenarios where performance and 
+startup time are critical, such as in mobile or embedded devices, or in 
+cloud environments where instances are frequently restarted. The AOT
+compiled code is optimized for the specific architecture and can take 
+advantage of hardware features such as instruction set extensions and 
+hardware acceleration.
+ • In .NET, AOT-compilation is usually performed using the Native Image 
+Generator (Ngen.exe) tool, which creates a native image from an existing 
+.NET assembly. The native image can then be deployed and executed on the 
+target machine, without requiring the .NET runtime to be installed.
+============================================
